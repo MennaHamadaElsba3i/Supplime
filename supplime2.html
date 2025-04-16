@@ -1,0 +1,1149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/supplime2.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Qwitcher+Grypen:wght@400;700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/YOUR_FONT_AWESOME_KIT.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <title>Supplime</title>
+  </head>
+  <body>
+    <div class="nav">
+      <div class="container d-flex justify-content-between align-items-center">
+        <div class="logos text-center px-3 d-flex align-items-center">
+          <a href="./supplime2.html" class="text-decoration-none text-light">
+            <h2 class="fw-bold">Supplime</h2>
+            <p class="cust-p text-uppercase">Supermarket</p>
+          </a>
+        </div>
+        <div class="search d-flex justify-content-center align-items-center">
+          <i class="fa-solid fa-magnifying-glass fs-5 search-icon"></i>
+          <form class="d-flex" role="search">
+            <input
+              class="form-control rounded-0 border-0"
+              type="search"
+              placeholder="Search For Products"
+              aria-label="Search"
+            />
+            <button
+              class="btn btn-outline-success text-light fw-medium rounded-0 border-0"
+              type="submit"
+            >
+              Go
+            </button>
+          </form>
+        </div>
+        <div
+          class="things d-flex justify-content-between align-items-center flex-column p-3"
+        >
+          <div class="links">
+            <ul
+              class="list-unstyled d-flex justify-content-between align-items-center gap-2"
+            >
+              <li class="nav-item">
+                <a href="./notifications.html" class="text-light fs-3"
+                  ><i class="fa-regular fa-bell fw-normal"></i
+                ></a>
+              </li>
+              <li class="nav-item text-nowrap">
+                <a
+                  class="nav-link active text-light"
+                  aria-current="page"
+                  href="#"
+                  >My Orders</a
+                >
+              </li>
+              <li class="nav-item text-nowrap">
+                <a class="nav-link text-light" href="./profile.html">Profile</a>
+              </li>
+              <li class="nav-item text-nowrap">
+                <a class="nav-link text-light" href="#">Log Out</a>
+              </li>
+              <li>
+                <a href=""></a>
+              </li>
+            </ul>
+          </div>
+          <div
+            class="icons d-flex justify-content-between align-items-center gap-3"
+          >
+            <a
+              href="./shoppingcart.html"
+              class="bg-warning text-light cart text-decoration-none rounded-circle p-2"
+              ><i class="fa-solid fa-cart-shopping fs-3"></i
+            ></a>
+            <a href="#" class="text-light"
+              ><i class="fa-regular fa-heart fs-3"></i
+            ></a>
+            <a href="#"
+              ><img
+                src="./imgs/delivery_5457874.png"
+                class="icon-size img-fluid"
+                alt=""
+                style="width: 50px; height: 50px"
+            /></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="fake-nav p-3">
+      <div class="container d-flex justify-content-between align-items-center">
+       <div class="f-links position-relative">
+        <button class="btn btn-primary border-0" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-expanded="false" aria-controls="menu">
+          ☰
+        </button>
+    
+        <div class="collapse position-absolute  z-3" id="menu" style="top: 60px; left: 0; width: 250px;">
+          <div class="card card-body border-0 rounded-2">
+            <a href="#" class=" mb-2 text-decoration-none fw-medium">My Orders</a>
+            <a href="#" class=" mb-2 text-decoration-none fw-medium">Profile</a>
+            <a href="#" class=" mb-2 text-decoration-none fw-medium">Log Out</a>
+            <a href="#" class=" mb-2 text-decoration-none fw-medium">Notifications</a>
+            <a href="#" class=" mb-2 text-decoration-none fw-medium">Shopping Cart</a>
+            <a href="#" class=" mb-2 text-decoration-none fw-medium">Favorites</a>
+            <a href="#" class=" mb-2 text-decoration-none fw-medium">Delivery</a>
+          </div>
+        </div>
+        
+        </div>
+        <div class="f-logo rounded-pill">
+          <a href="" class="text-decoration-none text-light fw-bold fs-3 p-4">Supplime</a>
+        </div>
+        <div class="f-searche">
+          <i class="fa-solid fa-magnifying-glass fs-5 f-search-icon"></i>
+        </div>
+        <div id="floating-search" class="position-absolute bg-white p-2 rounded shadow d-none" style="top: 70px; right: 20px; z-index: 999;">
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search For Products"
+              aria-label="Search"
+            />
+            <button class="btn btn-success border-0 fw-medium" type="submit">Go</button>
+          </form>
+        </div>
+      </div>
+       </div>
+      </div>
+    </div>
+    <div
+      class="sidebar d-block d-sm-flex justify-content-between align-items-center px-5 pt-3 pb-0"
+    >
+      <div class="container d-flex justify-content-between align-items-center">
+        <div class="cat d-flex justify-content-center align-items-center">
+          <a href="" class="text-decoration-none text-dark"
+            ><i class="fas fa-bars px-2 icon"></i>
+          </a>
+          <p class="fw-bold fs-6 text-nowrap">All Categories</p>
+        </div>
+        <div class="links">
+          <ul
+            class="list-unstyled d-flex justify-content-center align-items-center gap-4"
+          >
+            <a href="./supplime2.html" class="text-decoration-none text-dark text-uppercase"
+              ><li class="active">Home</li>
+            </a>
+            <a href="./about.html" class="text-decoration-none text-dark text-uppercase">
+              <li>About</li>
+            </a>
+            <a href="" class="text-decoration-none text-dark text-uppercase">
+              <li>Shop</li>
+            </a>
+            <a
+              href=""
+              class="text-decoration-none text-dark text-nowrap text-uppercase"
+              ><li>Contact Us</li></a
+            >
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="allcat position-absolute">
+      <div class="container">
+        <ul class="category list-unstyled fs-4">
+          <li><input type="checkbox" name="Fruits" id="Fruits" />Fruits</li>
+          <li>
+            <input
+              type="checkbox"
+              name="Vegetables"
+              id="Vegetables"
+            />Vegetables
+          </li>
+          <li><input type="checkbox" name="Drinks" id="Drinks" />Drinks</li>
+          <li>
+            <input type="checkbox" name="Dry Fruit" id="Dry Fruit" />Dry Fruit
+          </li>
+          <li><input type="checkbox" name="Oil" id="Oil" />Oil</li>
+          <li>
+            <input
+              type="checkbox"
+              name="Bakery Items"
+              id="Bakery Items"
+            />Bakery Items
+          </li>
+          <li>
+            <input type="checkbox" name="Milk Shake" id="Milk Shake" />Milk
+            Shake
+          </li>
+          <li>
+            <input
+              type="checkbox"
+              name="Detergents"
+              id="Detergents"
+            />Detergents
+          </li>
+          <li>
+            <input type="checkbox" name="Milk & Eggs" id="Milk & Eggs" />Milk &
+            Eggs
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="landing d-flex justify-content-between align-items-center p-5">
+      <div class="disc col-lg-6 col-md-6">
+        <h1 class="text-center text-md-start">
+          Your One-Stop Shop For <span>Quality Groceries</span>
+        </h1>
+        <p class="text-black-50 mt-4 mb-5 text-center text-md-start">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio sed,
+          mollitia quia debitis eligendi nobis vel corrupti modi tenetur
+          adipisci a laudantium molestias labore fuga quis incidunt doloremque
+          fugiat beatae.
+        </p>
+        <div
+          class="buttons d-flex align-items-center justify-content-center justify-content-md-start"
+        >
+          <a
+            class="btn rounded-3 text-light main-btn mt-3"
+            href="./item.html"
+            target="_blank"
+          >
+            Shop Now
+          </a>
+          <a
+            href=""
+            class="text-dark p-1 text-decoration-none mt-3 p-1 border-bottom border-black"
+            >View All Products</a
+          >
+        </div>
+      </div>
+      <div class="image col-lg-6 col-md-6 d-none d-md-block">
+        <img src="./imgs/Home.png" class="img-fluid" alt="" />
+      </div>
+    </div>
+    <div class="catgories px-5">
+      <div
+        class="label d-flex justify-content-between align-items-center border-bottom border-2 pb-2"
+      >
+        <h4 class="fw-bold text-nowrap">Shop By Category</h4>
+        <div class="arrows">
+          <i
+            class="fa-solid fa-arrow-left text-black-50 rounded-circle arrow p-1"
+            onclick="scrollSlider(-1)"
+          ></i>
+          <i
+            class="fa-solid fa-arrow-right text-black-50 rounded-circle arrow p-1"
+            onclick="scrollSlider(1)"
+          ></i>
+        </div>
+      </div>
+      <div class="items p-3 d-flex flex-row overflow-x-hidden text-nowrap">
+        <a
+          href=""
+          class="text-decoration-none text-dark d-flex align-items-center flex-column gap-2"
+          ><img src="./imgs/Apple.png" alt="Apple" />
+          <h6 class="fw-bold">Apple</h6></a
+        >
+        <a
+          href=""
+          class="text-decoration-none text-dark d-flex align-items-center flex-column gap-2"
+        >
+          <img src="./imgs/Vegetabls.png" alt="" />
+          <h6 class="fw-bold">Vegetabls</h6>
+        </a>
+        <a
+          href=""
+          class="text-decoration-none text-dark d-flex align-items-center flex-column gap-2"
+        >
+          <img src="./imgs/Drinks.png" alt="" />
+          <h6 class="fw-bold">Drinks</h6></a
+        >
+        <a
+          href=""
+          class="text-decoration-none text-dark d-flex align-items-center flex-column gap-2"
+        >
+          <img src="./imgs/Dry fruits.png" alt="" />
+          <h6 class="fw-bold">Dry fruits</h6>
+        </a>
+        <a
+          href=""
+          class="text-decoration-none text-dark d-flex align-items-center flex-column gap-2"
+        >
+          <img src="./imgs/Ice cream.png" alt="" />
+          <h6 class="fw-bold">Ice cream</h6>
+        </a>
+        <a
+          href=""
+          class="text-decoration-none text-dark d-flex align-items-center flex-column gap-2"
+        >
+          <img src="./imgs/Oil.png" alt="" />
+          <h6 class="fw-bold">Oil</h6>
+        </a>
+        <a
+          href=""
+          class="text-decoration-none text-dark d-flex align-items-center flex-column gap-2"
+        >
+          <img src="./imgs/Detergents.png" alt="" />
+          <h6 class="fw-bold">Detergents</h6></a
+        >
+        <a
+          href=""
+          class="text-decoration-none text-dark d-flex align-items-center flex-column gap-2"
+        >
+          <img src="./imgs/Snakes & Sweets.png" alt="" />
+          <h6 class="fw-bold">Snakes</h6>
+        </a>
+        <a
+          href=""
+          class="text-decoration-none text-dark d-flex align-items-center flex-column gap-2"
+        >
+          <img src="./imgs/milkshake.png" alt="" />
+          <h6 class="fw-bold">milkshake</h6></a
+        >
+        <a
+          href=""
+          class="text-decoration-none text-dark d-flex align-items-center flex-column gap-2"
+        >
+          <img src="./imgs/Milk & Egges.png" alt="" />
+          <h6 class="fw-bold">Milk</h6></a
+        >
+      </div>
+    </div>
+    <div
+      class="offer px-5 pt-5 d-flex justify-content-between align-items-center gap-3"
+    >
+      <div class="fre-veg d-flex p-4 rounded-4 align-items-center">
+        <div class="disc">
+          <p class="of rounded-pill p-1 text-center mb-4">Flat 20% Discout</p>
+          <h4>Purely Fresh Vegetables</h4>
+          <p class="text-black-50 lh-sm">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt
+            quaerat illum at totam impedit nemo.
+          </p>
+          <a
+            class="btn rounded-3 text-light main-btn p-1 mt-4"
+            href="./item.html"
+            target="_blank"
+          >
+            Shop Now
+          </a>
+        </div>
+        <div class="image">
+          <img
+            src="./imgs/erasebg-transformed 1.png"
+            class="img-fluid"
+            alt=""
+          />
+        </div>
+      </div>
+      <div class="fre-fru d-flex p-4 rounded-4 align-items-center">
+        <div class="disc">
+          <p class="of rounded-pill p-1 text-center mb-4">Flat 25% Discount</p>
+          <h4>Fresh Fruits Pure Quality</h4>
+          <p class="text-black-50 lh-sm">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt
+            quaerat illum at totam impedit nemo..
+          </p>
+          <a
+            class="btn rounded-3 text-light main-btn p-1 mt-4"
+            href="./item.html"
+            target="_blank"
+          >
+            Shop Now
+          </a>
+        </div>
+        <div class="image">
+          <img
+            src="./imgs/erasebg-transformed 1.png"
+            class="img-fluid"
+            alt=""
+          />
+        </div>
+      </div>
+    </div>
+    <div class="featured">
+      <div class="container mt-5">
+        <div class="text d-flex justify-content-between align-items-center">
+          <div class="label">
+            <p class="pt-3 fs-4 mb-1">Products</p>
+            <h2 class="">Featured <span>Products</span></h2>
+          </div>
+          <div
+            class="arrows d-flex justify-content-between align-items-start p-2 gap-1 text-light rounded-3"
+          >
+            <p class="mb-0 me-1 d-none d-md-block">View All products</p>
+            <i
+              class="fa-solid fa-arrow-right text-light rounded-circle arrow p-1"
+              onclick="slide(1, 0)"
+            ></i>
+            <i
+              class="fa-solid fa-arrow-left text-light rounded-circle arrow p-1"
+              onclick="slide(-1, 0)"
+            ></i>
+          </div>
+        </div>
+        <div
+          class="row pb-5 mt-4 d-flex flex-nowrap justify-content-between align-items-center gap-5 overflow-x-hidden"
+        >
+          <div class="product rounded-4 p-4 col-lg-4 col-md-4 col-sm-6">
+            <div
+              class="image d-flex justify-content-center align-items-start position-relative"
+            >
+              <div
+                class="fav d-flex justify-content-between align-items-start gap-2 w-100 position-absolute"
+              >
+                <p class="rounded-5 rounded-start py-1 px-3 text-light">
+                  20% off
+                </p>
+                <a href="" class="text-decoration-none text-dark"
+                  ><i
+                    class="bi bi-heart fs-5 p-2 d-flex justify-content-center align-items-center"
+                  ></i>
+                </a>
+              </div>
+              <img
+                src="./imgs/erasebg-transformed(1) 1.png"
+                class="img-fluid"
+                alt=""
+              />
+            </div>
+            <div
+              class="item-content d-flex justify-content-between gap-3 flex-column"
+            >
+              <div class="disc">
+                <div
+                  class="name d-flex justify-content-between align-items-start"
+                >
+                  <p>Fruit</p>
+                  <div
+                    class="rate d-flex justify-content-between align-items-start gap-1"
+                  >
+                    <i class="bi bi-star-fill" style="color: #f8c519"></i>
+                    <p class="">4.8</p>
+                  </div>
+                </div>
+                <h6 class="cust-h">Fresh Strawberry</h6>
+              </div>
+              <div class="price">
+                <p class="mb-0 text-black-50">400g</p>
+                <div
+                  class="add d-flex justify-content-between align-items-start gap-2"
+                >
+                  <p class="text-nowrap">
+                    $8.00 <del class="text-black-50 ms-2">$10.00</del>
+                  </p>
+                  <a
+                    href=""
+                    class="px-2 rounded-pill text-decoration-none d-flex align-items-start justify-content-between gap-2"
+                  >
+                    <i class="bi bi-bag fs-6"></i>add</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="product rounded-4 p-4 col-lg-4 col-md-4 col-sm-6">
+            <div
+              class="image d-flex justify-content-center align-items-start position-relative"
+            >
+              <div
+                class="fav d-flex justify-content-between align-items-start gap-2 w-100 position-absolute"
+              >
+                <p class="rounded-5 rounded-start py-1 px-3 text-light">
+                  20% off
+                </p>
+                <a href="" class="text-decoration-none text-dark"
+                  ><i
+                    class="bi bi-heart fs-5 p-2 d-flex justify-content-center align-items-center"
+                  ></i>
+                </a>
+              </div>
+              <img
+                src="./imgs/erasebg-transformed(2) 1.png"
+                class="img-fluid"
+                alt=""
+              />
+            </div>
+            <div
+              class="item-content d-flex justify-content-between gap-3 flex-column"
+            >
+              <div class="disc">
+                <div
+                  class="name d-flex justify-content-between align-items-start"
+                >
+                  <p>Fruit</p>
+                  <div
+                    class="rate d-flex justify-content-between align-items-start gap-1"
+                  >
+                    <i class="bi bi-star-fill" style="color: #f8c519"></i>
+                    <p class="">4.8</p>
+                  </div>
+                </div>
+                <h6 class="cust-h">Fresh Lemon</h6>
+              </div>
+              <div class="price">
+                <p class="mb-0 text-black-50">400g</p>
+                <div
+                  class="add d-flex justify-content-between align-items-start gap-2"
+                >
+                  <p class="text-nowrap">
+                    $12.00 <del class="text-black-50 ms-2">$15.00</del>
+                  </p>
+                  <a
+                    href=""
+                    class="px-2 rounded-pill text-decoration-none d-flex align-items-start justify-content-between gap-2"
+                  >
+                    <i class="bi bi-bag fs-6"></i>add</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="product rounded-4 p-4 col-lg-4 col-md-4 col-sm-6">
+            <div
+              class="image d-flex justify-content-center align-items-start position-relative"
+            >
+              <div
+                class="fav d-flex justify-content-between align-items-start gap-2 w-100 position-absolute"
+              >
+                <p class="rounded-5 rounded-start py-1 px-3 text-light">
+                  20% off
+                </p>
+                <a href="" class="text-decoration-none text-dark"
+                  ><i
+                    class="bi bi-heart fs-5 p-2 d-flex justify-content-center align-items-center"
+                  ></i>
+                </a>
+              </div>
+              <img src="./imgs/image 10.png" class="img-fluid" alt="" />
+            </div>
+            <div
+              class="item-content d-flex justify-content-between gap-3 flex-column"
+            >
+              <div class="disc">
+                <div
+                  class="name d-flex justify-content-between align-items-start"
+                >
+                  <p>Fruit</p>
+                  <div
+                    class="rate d-flex justify-content-between align-items-start gap-1"
+                  >
+                    <i class="bi bi-star-fill" style="color: #f8c519"></i>
+                    <p class="">4.8</p>
+                  </div>
+                </div>
+                <h6 class="cust-h">Fresh Orange</h6>
+              </div>
+              <div class="price">
+                <p class="mb-0 text-black-50">1kg</p>
+                <div
+                  class="add d-flex justify-content-between align-items-start gap-2"
+                >
+                  <p class="text-nowrap">
+                    $8.00 <del class="text-black-50 ms-2">$10.00</del>
+                  </p>
+                  <a
+                    href=""
+                    class="px-2 rounded-pill text-decoration-none d-flex align-items-start justify-content-between gap-2"
+                  >
+                    <i class="bi bi-bag fs-6"></i>add</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="product rounded-4 p-4 col-lg-4 col-md-4 col-sm-6">
+            <div
+              class="image d-flex justify-content-center align-items-start position-relative"
+            >
+              <div
+                class="fav d-flex justify-content-between align-items-start gap-2 w-100 position-absolute"
+              >
+                <p class="rounded-5 rounded-start py-1 px-3 text-light">
+                  20% off
+                </p>
+                <a href="" class="text-decoration-none text-dark"
+                  ><i
+                    class="bi bi-heart fs-5 p-2 d-flex justify-content-center align-items-center"
+                  ></i>
+                </a>
+              </div>
+              <img src="./imgs/image 40.png" class="img-fluid" alt="" />
+            </div>
+            <div
+              class="item-content d-flex justify-content-between gap-3 flex-column"
+            >
+              <div class="disc">
+                <div
+                  class="name d-flex justify-content-between align-items-start"
+                >
+                  <p>Fruit</p>
+                  <div
+                    class="rate d-flex justify-content-between align-items-start gap-1"
+                  >
+                    <i class="bi bi-star-fill" style="color: #f8c519"></i>
+                    <p class="">4.8</p>
+                  </div>
+                </div>
+                <h6 class="cust-h">Fresh Plum</h6>
+              </div>
+              <div class="price">
+                <p class="mb-0 text-black-50">400g</p>
+                <div
+                  class="add d-flex justify-content-between align-items-start gap-2"
+                >
+                  <p class="text-nowrap">
+                    $8.00 <del class="text-black-50 ms-2">$10.00</del>
+                  </p>
+                  <a
+                    href=""
+                    class="px-2 rounded-pill text-decoration-none d-flex align-items-start justify-content-between gap-2"
+                  >
+                    <i class="bi bi-bag fs-6"></i>add</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="product rounded-4 p-4 col-lg-4 col-md-4 col-sm-6">
+            <div
+              class="image d-flex justify-content-center align-items-start position-relative"
+            >
+              <div
+                class="fav d-flex justify-content-between align-items-start gap-2 w-100 position-absolute"
+              >
+                <p class="rounded-5 rounded-start py-1 px-3 text-light">
+                  20% off
+                </p>
+                <a href="" class="text-decoration-none text-dark"
+                  ><i
+                    class="bi bi-heart fs-5 p-2 d-flex justify-content-center align-items-center"
+                  ></i>
+                </a>
+              </div>
+              <img src="./imgs/image 26.png" class="img-fluid" alt="" />
+            </div>
+            <div
+              class="item-content d-flex justify-content-between gap-3 flex-column"
+            >
+              <div class="disc">
+                <div
+                  class="name d-flex justify-content-between align-items-start"
+                >
+                  <p>Fruit</p>
+                  <div
+                    class="rate d-flex justify-content-between align-items-start gap-1"
+                  >
+                    <i class="bi bi-star-fill" style="color: #f8c519"></i>
+                    <p class="">4.8</p>
+                  </div>
+                </div>
+                <h6 class="cust-h">Fresh Cabbage</h6>
+              </div>
+              <div class="price">
+                <p class="mb-0 text-black-50">400g</p>
+                <div
+                  class="add d-flex justify-content-between align-items-start gap-2"
+                >
+                  <p class="text-nowrap">
+                    $8.00 <del class="text-black-50 ms-2">$10.00</del>
+                  </p>
+                  <a
+                    href=""
+                    class="px-2 rounded-pill text-decoration-none d-flex align-items-start justify-content-between gap-2"
+                  >
+                    <i class="bi bi-bag fs-6"></i>add</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="deals">
+      <div class="container">
+        <div class="text d-flex justify-content-between align-items-center">
+          <div class="label">
+            <p class="pt-3 fs-4 mb-1">Today Deals</p>
+            <h2 class=""><span>Deals</span> of the Day</h2>
+          </div>
+        </div>
+
+        <div
+          class="products mt-4 d-flex justify-content-between align-items-center gap-4"
+        >
+          <div
+            class="item border-2 border border-black rounded-5 p-3 d-flex justify-content-between align-items-center gap-3"
+          >
+            <div class="image position-relative">
+              <div
+                class="fav d-flex justify-content-between align-items-start gap-2 w-100"
+              >
+                <p class="rounded-3 py-1 px-2 text-light position-absolute">
+                  20% off
+                </p>
+                <a
+                  href=""
+                  class="text-decoration-none text-dark position-absolute"
+                  ><i
+                    class="bi bi-heart fs-5 p-2 d-flex justify-content-center align-items-center"
+                  ></i>
+                </a>
+              </div>
+              <img src="./imgs/image 11.png" alt="" />
+            </div>
+            <div class="item-disc">
+              <p class="fs-5">Laundry Supplies</p>
+              <h5 class="cust-h">Laundry Detegrents</h5>
+              <p class="fs-5">
+                $75.00<del class="ms-3 text-black-50">$100.00</del>
+              </p>
+              <div
+                class="rate d-flex justify-content-start align-items-start gap-2 fs-5"
+              >
+                <i class="bi bi-star-fill" style="color: #f8c519"></i>
+                <p class="">4.8</p>
+              </div>
+              <p class="text-black-50">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. A,
+                error sit! Reiciendis, quae error. Ipsum ipsa fugit distinc
+              </p>
+              <a
+                href=""
+                class="px-2 rounded-pill text-decoration-none d-flex align-items-center justify-content-between gap-2"
+              >
+                <i class="bi bi-bag fs-6"></i>add</a
+              >
+            </div>
+          </div>
+          <div
+            class="item border-2 rounded-5 border border-black p-3 d-flex justify-content-between align-items-center gap-3"
+          >
+            <div class="image position-relative">
+              <div
+                class="fav d-flex justify-content-between align-items-start gap-2 w-100"
+              >
+                <p class="rounded-3 py-1 px-2 text-light position-absolute">
+                  20% off
+                </p>
+                <a
+                  href=""
+                  class="text-decoration-none text-dark position-absolute"
+                  ><i
+                    class="bi bi-heart fs-5 p-2 d-flex justify-content-center align-items-center"
+                  ></i>
+                </a>
+              </div>
+              <img src="./imgs/image 14.png" alt="" />
+            </div>
+            <div class="item-disc">
+              <p class="fs-5">Personal Care</p>
+              <h5 class="cust-h">Body Wash</h5>
+              <p class="fs-5">
+                $25.00<del class="ms-3 text-black-50">$50.00</del>
+              </p>
+              <div
+                class="rate d-flex justify-content-start align-items-start gap-2 fs-5"
+              >
+                <i class="bi bi-star-fill" style="color: #f8c519"></i>
+                <p class="">5.0</p>
+              </div>
+              <p class="text-black-50">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. A,
+                error sit! Reiciendis, quae error. Ipsum ipsa fugit distinc
+              </p>
+              <a
+                href=""
+                class="px-2 rounded-pill text-decoration-none d-flex align-items-center justify-content-between gap-2"
+              >
+                <i class="bi bi-bag fs-6"></i>add</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="featured">
+      <div class="container mt-5">
+        <div class="text d-flex justify-content-between align-items-center">
+          <div class="label">
+            <p class="pt-3 fs-4 mb-1">Best Seller</p>
+            <h2 class=""><span>Best Seller </span>Products</h2>
+          </div>
+          <div
+            class="arrows d-flex justify-content-between align-items-start p-2 gap-1 text-light rounded-3"
+          >
+            <p class="mb-0 me-1 d-none d-md-block">View All products</p>
+            <i
+              class="fa-solid fa-arrow-right text-light rounded-circle arrow p-1"
+              onclick="slide(1, 1)"
+            ></i>
+            <i
+              class="fa-solid fa-arrow-left text-light rounded-circle arrow p-1"
+              onclick="slide(-1, 1)"
+            ></i>
+          </div>
+        </div>
+        <div
+          class="row pb-5 mt-4 d-flex flex-nowrap justify-content-between align-items-center gap-5 overflow-x-hidden"
+        >
+          <div class="product rounded-4 p-4 col-lg-4 col-md-4 col-sm-6">
+            <div
+              class="image d-flex justify-content-center align-items-start position-relative"
+            >
+              <div
+                class="fav d-flex justify-content-between align-items-start gap-2 w-100 position-absolute"
+              >
+                <p class="rounded-5 rounded-start py-1 px-3 text-light">
+                  20% off
+                </p>
+                <a href="" class="text-decoration-none text-dark"
+                  ><i
+                    class="bi bi-heart fs-5 p-2 d-flex justify-content-center align-items-center"
+                  ></i>
+                </a>
+              </div>
+              <img src="./imgs/image 15.png" class="img-fluid" alt="" />
+            </div>
+            <div
+              class="item-content d-flex justify-content-between gap-3 flex-column"
+            >
+              <div class="disc">
+                <div
+                  class="name d-flex justify-content-between align-items-start"
+                >
+                  <p>Fruit</p>
+                  <div
+                    class="rate d-flex justify-content-between align-items-start gap-1"
+                  >
+                    <i class="bi bi-star-fill" style="color: #f8c519"></i>
+                    <p class="">4.8</p>
+                  </div>
+                </div>
+                <h6 class="cust-h">Fresh Strawberry</h6>
+              </div>
+              <div class="price">
+                <p class="mb-0 text-black-50">400g</p>
+                <div
+                  class="add d-flex justify-content-between align-items-start gap-2"
+                >
+                  <p class="text-nowrap">
+                    $8.00 <del class="text-black-50 ms-2">$10.00</del>
+                  </p>
+                  <a
+                    href=""
+                    class="px-2 rounded-pill text-decoration-none d-flex align-items-start justify-content-between gap-2"
+                  >
+                    <i class="bi bi-bag fs-6"></i>add</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="product rounded-4 p-4 col-lg-4 col-md-4 col-sm-6">
+            <div
+              class="image d-flex justify-content-center align-items-start position-relative"
+            >
+              <div
+                class="fav d-flex justify-content-between align-items-start gap-2 w-100 position-absolute"
+              >
+                <p class="rounded-5 rounded-start py-1 px-3 text-light">
+                  20% off
+                </p>
+                <a href="" class="text-decoration-none text-dark"
+                  ><i
+                    class="bi bi-heart fs-5 p-2 d-flex justify-content-center align-items-center"
+                  ></i>
+                </a>
+              </div>
+              <img src="./imgs/image 16.png" class="img-fluid" alt="" />
+            </div>
+            <div
+              class="item-content d-flex justify-content-between gap-3 flex-column"
+            >
+              <div class="disc">
+                <div
+                  class="name d-flex justify-content-between align-items-start"
+                >
+                  <p>Fruit</p>
+                  <div
+                    class="rate d-flex justify-content-between align-items-start gap-1"
+                  >
+                    <i class="bi bi-star-fill" style="color: #f8c519"></i>
+                    <p class="">4.8</p>
+                  </div>
+                </div>
+                <h6 class="cust-h">Fresh Strawberry</h6>
+              </div>
+              <div class="price">
+                <p class="mb-0 text-black-50">400g</p>
+                <div
+                  class="add d-flex justify-content-between align-items-start gap-2"
+                >
+                  <p class="text-nowrap">
+                    $8.00 <del class="text-black-50 ms-2">$10.00</del>
+                  </p>
+                  <a
+                    href=""
+                    class="px-2 rounded-pill text-decoration-none d-flex align-items-start justify-content-between gap-2"
+                  >
+                    <i class="bi bi-bag fs-6"></i>add</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="product rounded-4 p-4 col-lg-4 col-md-4 col-sm-6">
+            <div
+              class="image d-flex justify-content-center align-items-start position-relative"
+            >
+              <div
+                class="fav d-flex justify-content-between align-items-start gap-2 w-100 position-absolute"
+              >
+                <p class="rounded-5 rounded-start py-1 px-3 text-light">
+                  20% off
+                </p>
+                <a href="" class="text-decoration-none text-dark"
+                  ><i
+                    class="bi bi-heart fs-5 p-2 d-flex justify-content-center align-items-center"
+                  ></i>
+                </a>
+              </div>
+              <img src="./imgs/image 67.png" class="img-fluid" alt="" />
+            </div>
+            <div
+              class="item-content d-flex justify-content-between gap-3 flex-column"
+            >
+              <div class="disc">
+                <div
+                  class="name d-flex justify-content-between align-items-start"
+                >
+                  <p>Fruit</p>
+                  <div
+                    class="rate d-flex justify-content-between align-items-start gap-1"
+                  >
+                    <i class="bi bi-star-fill" style="color: #f8c519"></i>
+                    <p class="">4.8</p>
+                  </div>
+                </div>
+                <h6 class="cust-h">Fresh Strawberry</h6>
+              </div>
+              <div class="price">
+                <p class="mb-0 text-black-50">400g</p>
+                <div
+                  class="add d-flex justify-content-between align-items-start gap-2"
+                >
+                  <p class="text-nowrap">
+                    $8.00 <del class="text-black-50 ms-2">$10.00</del>
+                  </p>
+                  <a
+                    href=""
+                    class="px-2 rounded-pill text-decoration-none d-flex align-items-start justify-content-between gap-2"
+                  >
+                    <i class="bi bi-bag fs-6"></i>add</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="product rounded-4 p-4 col-lg-4 col-md-4 col-sm-6">
+            <div
+              class="image d-flex justify-content-center align-items-start position-relative"
+            >
+              <div
+                class="fav d-flex justify-content-between align-items-start gap-2 w-100 position-absolute"
+              >
+                <p class="rounded-5 rounded-start py-1 px-3 text-light">
+                  20% off
+                </p>
+                <a href="" class="text-decoration-none text-dark"
+                  ><i
+                    class="bi bi-heart fs-5 p-2 d-flex justify-content-center align-items-center"
+                  ></i>
+                </a>
+              </div>
+              <img src="./imgs/Oil.png" class="img-fluid" alt="" />
+            </div>
+            <div
+              class="item-content d-flex justify-content-between gap-3 flex-column"
+            >
+              <div class="disc">
+                <div
+                  class="name d-flex justify-content-between align-items-start"
+                >
+                  <p>Fruit</p>
+                  <div
+                    class="rate d-flex justify-content-between align-items-start gap-1"
+                  >
+                    <i class="bi bi-star-fill" style="color: #f8c519"></i>
+                    <p class="">4.8</p>
+                  </div>
+                </div>
+                <h6 class="cust-h">Fresh Strawberry</h6>
+              </div>
+              <div class="price">
+                <p class="mb-0 text-black-50">400g</p>
+                <div
+                  class="add d-flex justify-content-between align-items-start gap-2"
+                >
+                  <p class="text-nowrap">
+                    $8.00 <del class="text-black-50 ms-2">$10.00</del>
+                  </p>
+                  <a
+                    href=""
+                    class="px-2 rounded-pill text-decoration-none d-flex align-items-start justify-content-between gap-2"
+                  >
+                    <i class="bi bi-bag fs-6"></i>add</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="product rounded-4 p-4 col-lg-4 col-md-4 col-sm-6">
+            <div
+              class="image d-flex justify-content-center align-items-start position-relative"
+            >
+              <div
+                class="fav d-flex justify-content-between align-items-start gap-2 w-100 position-absolute"
+              >
+                <p class="rounded-5 rounded-start py-1 px-3 text-light">
+                  20% off
+                </p>
+                <a href="" class="text-decoration-none text-dark"
+                  ><i
+                    class="bi bi-heart fs-5 p-2 d-flex justify-content-center align-items-center"
+                  ></i>
+                </a>
+              </div>
+              <img src="./imgs/image 69.png" class="img-fluid" alt="" />
+            </div>
+            <div
+              class="item-content d-flex justify-content-between gap-3 flex-column"
+            >
+              <div class="disc">
+                <div
+                  class="name d-flex justify-content-between align-items-start"
+                >
+                  <p>Fruit</p>
+                  <div
+                    class="rate d-flex justify-content-between align-items-start gap-1"
+                  >
+                    <i class="bi bi-star-fill" style="color: #f8c519"></i>
+                    <p class="">4.8</p>
+                  </div>
+                </div>
+                <h6 class="cust-h">Fresh Strawberry</h6>
+              </div>
+              <div class="price">
+                <p class="mb-0 text-black-50">400g</p>
+                <div
+                  class="add d-flex justify-content-between align-items-start gap-2"
+                >
+                  <p class="text-nowrap">
+                    $8.00 <del class="text-black-50 ms-2">$10.00</del>
+                  </p>
+                  <a
+                    href=""
+                    class="px-2 rounded-pill text-decoration-none d-flex align-items-start justify-content-between gap-2"
+                  >
+                    <i class="bi bi-bag fs-6"></i>add</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer pt-5">
+      <div class="container">
+        <div class="row">
+        
+          <div class="col-md-4 mb-4">
+            <div class="title d-flex align-items-center gap-2">
+              <i class="fa-solid fa-cart-shopping fs-3 rounded-circle text-light p-2"></i>
+              <h2 class="text-light fw-bold">Supplime.</h2>
+            </div>
+            <p class="mt-4 text-light">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Voluptatibus corrupti consequuntur fugiat tempory.
+            </p>
+            <div class="social-icons d-flex gap-3 mt-5">
+              <a href="#" class="rounded-circle text-light"><i class="fab fa-facebook-f"></i></a>
+              <a href="#" class="rounded-circle text-light"><i class="fab fa-twitter"></i></a>
+              <a href="#" class="rounded-circle text-light"><i class="fab fa-instagram"></i></a>
+              <a href="#" class="rounded-circle text-light"><i class="fab fa-youtube"></i></a>
+              <a href="#" class="rounded-circle text-light"><i class="fab fa-pinterest-p"></i></a>
+            </div>
+          </div>
+    
+         
+          <div class="col-md-8 mb-4">
+            <div class="row text-start">
+              <div class="col-md-4 mb-4">
+                <h5 class="text-light">Company</h5>
+                <div class="d-flex flex-column gap-3 mt-4">
+                  <a href="#" class="text-decoration-none text-white-50">About Us</a>
+                  <a href="#" class="text-decoration-none text-white-50">Contact Us</a>
+                </div>
+              </div>
+              <div class="col-md-4 mb-4">
+                <h5 class="text-light">Customer Services</h5>
+                <div class="d-flex flex-column gap-3 mt-4">
+                  <a href="#" class="text-decoration-none text-white-50">My Account</a>
+                  <a href="#" class="text-decoration-none text-white-50">Track Your Order</a>
+                </div>
+              </div>
+              <div class="col-md-4 mb-4">
+                <h5 class="text-light">Contact Info</h5>
+                <p class="text-white-50 mt-4 mb-1">+32654</p>
+                <p class="text-white-50 text-break mb-1">example@gmail.com</p>
+                <p class="text-white-50 mb-0">
+                  9865 Preston Rd.<br>Inglewood, Maine<br>6589
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row border-top py-4 mt-3">
+          <div class="col-12">
+            <p class="text-light fw-medium mb-0">
+              CopyRight 2025 <span class="text-warning">Grocery Website Design.</span> All Rights Reserved
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./js/supplime.js">
+    </script>
+  </body>
+</html>
