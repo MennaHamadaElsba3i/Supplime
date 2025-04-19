@@ -10,6 +10,21 @@
   margin-top: var(--t-margin);
   margin-bottom: var(--t-margin);
 }
+.profile .image i {
+  background-color: var(--main-color);
+  bottom: 15%;
+  left: 35%;
+  border: 5px solid #ffffff;
+}
 .profile input {
-  width: 60%;
+  width: 80%;
+}
+.pro {
+  width: 75%;
+}
+.profile .btn {
+  background-color: var(--main-color);
+}
+.profile .update {
+  /* width: 60%; */
 }
