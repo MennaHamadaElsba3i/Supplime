@@ -111,31 +111,61 @@
     </div>
     <div class="fake-nav p-3">
       <div class="container d-flex justify-content-between align-items-center">
-       <div class="f-links position-relative">
-        <button class="btn btn-primary border-0" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-expanded="false" aria-controls="menu">
-          ☰
-        </button>
-    
-        <div class="collapse position-absolute  z-3" id="menu" style="top: 60px; left: 0; width: 250px;">
-          <div class="card card-body border-0 rounded-2">
-            <a href="#" class=" mb-2 text-decoration-none fw-medium">My Orders</a>
-            <a href="#" class=" mb-2 text-decoration-none fw-medium">Profile</a>
-            <a href="#" class=" mb-2 text-decoration-none fw-medium">Log Out</a>
-            <a href="#" class=" mb-2 text-decoration-none fw-medium">Notifications</a>
-            <a href="#" class=" mb-2 text-decoration-none fw-medium">Shopping Cart</a>
-            <a href="#" class=" mb-2 text-decoration-none fw-medium">Favorites</a>
-            <a href="#" class=" mb-2 text-decoration-none fw-medium">Delivery</a>
+        <div class="f-links position-relative">
+          <button
+            class="btn btn-primary border-0"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#menu"
+            aria-expanded="false"
+            aria-controls="menu"
+          >
+            ☰
+          </button>
+
+          <div
+            class="collapse position-absolute z-3"
+            id="menu"
+            style="top: 60px; left: 0; width: 250px"
+          >
+            <div class="card card-body border-0 rounded-2">
+              <a href="#" class="mb-2 text-decoration-none fw-medium"
+                >My Orders</a
+              >
+              <a href="#" class="mb-2 text-decoration-none fw-medium"
+                >Profile</a
+              >
+              <a href="#" class="mb-2 text-decoration-none fw-medium"
+                >Log Out</a
+              >
+              <a href="#" class="mb-2 text-decoration-none fw-medium"
+                >Notifications</a
+              >
+              <a href="#" class="mb-2 text-decoration-none fw-medium"
+                >Shopping Cart</a
+              >
+              <a href="#" class="mb-2 text-decoration-none fw-medium"
+                >Favorites</a
+              >
+              <a href="#" class="mb-2 text-decoration-none fw-medium"
+                >Delivery</a
+              >
+            </div>
           </div>
         </div>
-        
-        </div>
         <div class="f-logo rounded-pill">
-          <a href="" class="text-decoration-none text-light fw-bold fs-3 p-4">Supplime</a>
+          <a href="" class="text-decoration-none text-light fw-bold fs-3 p-4"
+            >Supplime</a
+          >
         </div>
         <div class="f-searche">
           <i class="fa-solid fa-magnifying-glass fs-5 f-search-icon"></i>
         </div>
-        <div id="floating-search" class="position-absolute bg-white p-2 rounded shadow d-none" style="top: 70px; right: 20px; z-index: 999;">
+        <div
+          id="floating-search"
+          class="position-absolute bg-white p-2 rounded shadow d-none"
+          style="top: 70px; right: 20px; z-index: 999"
+        >
           <form class="d-flex" role="search">
             <input
               class="form-control me-2"
@@ -143,44 +173,130 @@
               placeholder="Search For Products"
               aria-label="Search"
             />
-            <button class="btn btn-success border-0 fw-medium" type="submit">Go</button>
+            <button class="btn btn-success border-0 fw-medium" type="submit">
+              Go
+            </button>
           </form>
         </div>
       </div>
-       </div>
-
-
+    </div>
+    <div
+    class="sidebar d-block d-sm-flex justify-content-between align-items-center px-5 pt-3 pb-0"
+  >
+    <div class="container d-flex justify-content-between align-items-center">
+      <div class="cat d-flex justify-content-center align-items-center">
+        <a href="" class="text-decoration-none text-dark"
+          ><i class="fas fa-bars px-2 icon"></i>
+        </a>
+        <p class="fw-bold fs-6 text-nowrap">All Categories</p>
+      </div>
+      <div class="links">
+        <ul
+          class="list-unstyled d-flex justify-content-center align-items-center gap-4"
+        >
+          <a href="./supplime2.html" class="text-decoration-none text-dark text-uppercase"
+            ><li class="active">Home</li>
+          </a>
+          <a href="./about.html" class="text-decoration-none text-dark text-uppercase">
+            <li>About</li>
+          </a>
+          <a href="" class="text-decoration-none text-dark text-uppercase">
+            <li>Shop</li>
+          </a>
+          <a
+            href=""
+            class="text-decoration-none text-dark text-nowrap text-uppercase"
+            ><li>Contact Us</li></a
+          >
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="allcat position-absolute">
+    <div class="container">
+      <ul class="category list-unstyled fs-4">
+        <li><input type="checkbox" name="Fruits" id="Fruits" />Fruits</li>
+        <li>
+          <input
+            type="checkbox"
+            name="Vegetables"
+            id="Vegetables"
+          />Vegetables
+        </li>
+        <li><input type="checkbox" name="Drinks" id="Drinks" />Drinks</li>
+        <li>
+          <input type="checkbox" name="Dry Fruit" id="Dry Fruit" />Dry Fruit
+        </li>
+        <li><input type="checkbox" name="Oil" id="Oil" />Oil</li>
+        <li>
+          <input
+            type="checkbox"
+            name="Bakery Items"
+            id="Bakery Items"
+          />Bakery Items
+        </li>
+        <li>
+          <input type="checkbox" name="Milk Shake" id="Milk Shake" />Milk
+          Shake
+        </li>
+        <li>
+          <input
+            type="checkbox"
+            name="Detergents"
+            id="Detergents"
+          />Detergents
+        </li>
+        <li>
+          <input type="checkbox" name="Milk & Eggs" id="Milk & Eggs" />Milk &
+          Eggs
+        </li>
+      </ul>
+    </div>
+  </div>
     <div class="main-title text-center pt-5">
       <h1>Profile</h1>
       <p>
-        <a href="./supplime2.html" class="text-decoration-none text-dark">Home / </a>
-        <a href="./profile.html" class="text-decoration-none text-dark">Profile</a>
+        <a href="./supplime2.html" class="text-decoration-none text-dark"
+          >Home /
+        </a>
+        <a href="./profile.html" class="text-decoration-none text-dark"
+          >Profile</a
+        >
       </p>
     </div>
     <div class="profile">
-     <div class="container d-flex justify-content-center gap-3 flex-column">
-          <div class="image">
-               <img src="./imgs/Ellipse 54.png" alt="">
-          </div>
-          <form action="" class="d-flex justify-content-between align-items-start gap-4 flex-column">
-               <label for="name">Name *</label>
-               <input type="text" placeholder="Name">
-               <label for="name">Phone *</label>
-               <input type="number" placeholder="+123-456-789">
-               <label for="name">Email *</label>
-               <input type="email" placeholder="Supplime@gmail.com">
-          </form>
-          <a href="" class="btn">Update Changes</a>
-     </div>
+      <div class="container d-flex justify-content-center ">
+       <div class="pro d-flex justify-content-center gap-3 flex-column">
+        <div class="image mb-4">
+          <img src="./imgs/Ellipse 54.png" class="position-relative" alt="" />
+          <i class="fas fa-pen position-absolute text-light p-2 rounded-circle edit "></i>
+        </div>
+        <form
+          action=""
+          class="d-flex justify-content-between align-items-start gap-4 flex-column"
+        >
+          <label for="name" class="fw-medium">Name *</label>
+          <input type="text" class="p-1 rounded-2 border border-secondary" placeholder="Name" />
+          <label for="name" class="fw-medium">Phone *</label>
+          <input type="number" class="p-1 rounded-2 border border-secondary" placeholder="+123-456-789" />
+          <label for="name" class="fw-medium">Email *</label>
+          <input type="email"class="p-1 rounded-2 border border-secondary" placeholder="Supplime@gmail.com" />
+        </form>
+        <div class="update d-flex align-items-center justify-content-start mt-3">
+          <a href="" class="btn rounded-pill py-2 px-3 text-light">Update Changes</a>
+        </div>
+       </div>
+      </div>
     </div>
 
     <div class="footer bg-success pt-5 mt-5">
       <div class="container">
         <div class="row">
-        
           <div class="col-md-4 mb-4">
             <div class="title d-flex align-items-center gap-2">
-              <i class="fa-solid fa-cart-shopping fs-3 rounded-circle text-light p-2"></i>
+              <i
+                class="fa-solid fa-cart-shopping fs-3 rounded-circle text-light p-2"
+              ></i>
               <h2 class="text-light fw-bold">Supplime.</h2>
             </div>
             <p class="mt-4 text-light">
@@ -188,29 +304,46 @@
               Voluptatibus corrupti consequuntur fugiat tempory.
             </p>
             <div class="social-icons d-flex gap-3 mt-5">
-              <a href="#" class="rounded-circle text-light"><i class="fab fa-facebook-f"></i></a>
-              <a href="#" class="rounded-circle text-light"><i class="fab fa-twitter"></i></a>
-              <a href="#" class="rounded-circle text-light"><i class="fab fa-instagram"></i></a>
-              <a href="#" class="rounded-circle text-light"><i class="fab fa-youtube"></i></a>
-              <a href="#" class="rounded-circle text-light"><i class="fab fa-pinterest-p"></i></a>
+              <a href="#" class="rounded-circle text-light"
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+              <a href="#" class="rounded-circle text-light"
+                ><i class="fab fa-twitter"></i
+              ></a>
+              <a href="#" class="rounded-circle text-light"
+                ><i class="fab fa-instagram"></i
+              ></a>
+              <a href="#" class="rounded-circle text-light"
+                ><i class="fab fa-youtube"></i
+              ></a>
+              <a href="#" class="rounded-circle text-light"
+                ><i class="fab fa-pinterest-p"></i
+              ></a>
             </div>
           </div>
-    
-         
+
           <div class="col-md-8 mb-4">
             <div class="row text-start">
               <div class="col-md-4 mb-4">
                 <h5 class="text-light">Company</h5>
                 <div class="d-flex flex-column gap-3 mt-4">
-                  <a href="#" class="text-decoration-none text-white-50">About Us</a>
-                  <a href="#" class="text-decoration-none text-white-50">Contact Us</a>
+                  <a href="#" class="text-decoration-none text-white-50"
+                    >About Us</a
+                  >
+                  <a href="#" class="text-decoration-none text-white-50"
+                    >Contact Us</a
+                  >
                 </div>
               </div>
               <div class="col-md-4 mb-4">
                 <h5 class="text-light">Customer Services</h5>
                 <div class="d-flex flex-column gap-3 mt-4">
-                  <a href="#" class="text-decoration-none text-white-50">My Account</a>
-                  <a href="#" class="text-decoration-none text-white-50">Track Your Order</a>
+                  <a href="#" class="text-decoration-none text-white-50"
+                    >My Account</a
+                  >
+                  <a href="#" class="text-decoration-none text-white-50"
+                    >Track Your Order</a
+                  >
                 </div>
               </div>
               <div class="col-md-4 mb-4">
@@ -218,7 +351,7 @@
                 <p class="text-white-50 mt-4 mb-1">+32654</p>
                 <p class="text-white-50 text-break mb-1">example@gmail.com</p>
                 <p class="text-white-50 mb-0">
-                  9865 Preston Rd.<br>Inglewood, Maine<br>6589
+                  9865 Preston Rd.<br />Inglewood, Maine<br />6589
                 </p>
               </div>
             </div>
@@ -227,7 +360,9 @@
         <div class="row border-top py-4 mt-3">
           <div class="col-12">
             <p class="text-light fw-medium mb-0">
-              CopyRight 2025 <span class="text-warning">Grocery Website Design.</span> All Rights Reserved
+              CopyRight 2025
+              <span class="text-warning">Grocery Website Design.</span> All
+              Rights Reserved
             </p>
           </div>
         </div>
