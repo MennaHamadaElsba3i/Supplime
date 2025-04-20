@@ -4,17 +4,12 @@
   --childmain-color: #30a274;
   --section-color: #f4f4f4;
   --list-color: #e9e9e9;
-  --t-margin: 100px; 
+  --t-margin: 100px;
 }
-.profile {
+.profile,
+.main-profile {
   margin-top: var(--t-margin);
   margin-bottom: var(--t-margin);
-}
-.profile .image i {
-  background-color: var(--main-color);
-  bottom: 15%;
-  left: 35%;
-  border: 5px solid #ffffff;
 }
 .profile input {
   width: 80%;
@@ -25,6 +20,12 @@
 .profile .btn {
   background-color: var(--main-color);
 }
-.profile .update {
-  /* width: 60%; */
+.edit-but {
+  width: fit-content;
+  background-color: var(--main-color);
+}
+@media (max-width: 992px) {
+  .main-profile .pro {
+    flex-direction: column;
+  }
 }
