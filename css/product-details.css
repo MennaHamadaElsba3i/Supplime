@@ -9,13 +9,25 @@
 .product-details .product-image {
      width: fit-content;
 }
-.add a {
+.add a,
+.product-details .product-card .add a:hover {
      background-color: var(--main-color);
 }
-.buy a {
+.buy a,
+.buy a:hover {
      background-color: var(--sec-color);
 }
 .rating .rate-head a {
      color: var(--main-color);
      border-bottom: 3.5px solid var(--main-color);
+}
+.product-details .featured {
+     background-color: white;
+}
+.product-details .featured .arrows {
+     background-color: transparent;
+}
+.weight-info a.active {
+     color: white;
+     background-color: var(--main-color);
 }
